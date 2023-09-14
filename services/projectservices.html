@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            min-height: 110vh;
+        }
+
+        header{
+            background-color: rgba(211, 211, 211, 0.3);
+        }
+
+        .navbar{
+            background-color: #475569;
+        }
+
+       .bi{
+            color: white;
+            cursor: pointer;
+        }
+        .bi:hover{
+            color:lightblue;
+        }
+
+        .nav-link{
+            color: blue;
+            font-size: 1em;
+            font-weight: bolder;
+        }
+
+        .nav-link:hover{
+            color: black;
+            background-color: gray;
+         }
+         
+         .cargo:hover{
+          background-color: #475569;
+         }
+
+         .figs{
+            font-size: 50px;
+            font-weight: bolder;
+         }
+
+         .fig{
+            font-size: 20px;
+         }
+
+         @media screen and (min-width: 1024px)  and (max-width: 1200px){
+            .carousel-item img
+
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            /* Default Styling */
+  
+                font-size: 30px;
+                width: 100%;
+                height: 50vh;
+                background-size: cover;
+                background-position: center;
+ 
+        }
+    }
+
+            .responsive {
+                width: 100%;
+                height: auto;
+            }
+
+            .center{
+                font-size: 700px;
+            }
+
+            @media screen and (min-width: 1201px){
+
+
+            .carousel-item img
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;      
+                font-size: 30px;
+                width: 100%;
+                height: 50vh;
+                background-size: cover;
+                background-position: center;
+     
+            }
+        }
+    
+            .responsive {
+                width: 100%;
+                height: auto;
+            }
+
+            .center{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 70px;
+            }
+
+            @media screen and (min-width: 700px) {
+                .center{
+                    font-size: 70px;
+                }
+            }
+
+            @media screen and (max-width: 699px){
+                .center{
+                    font-size: 30px;
+                }
+            }
+
+            @media screen and (min-width: 200px) and (max-width: 300px) {
+                .center{
+                    font-size: 20px;
+                }
+            }
+
+            @media screen and (min-width: 200px) and (max-width: 600px) {
+                .choose{
+                    font-size: 20px;
+                }
+            }
+
+            .cargo:hover{
+                background-color: rgba(128, 128, 128, 0.1);
+            }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg p-3 d-none d-xxl-block d-xl-block d-lg-block d-md-block d-sm-block">
+        <div class="container">
+          <div class="row">
+            <div class="col"><i class="bi bi-telephone navbar-brand" style="font-size: 16px;">+2348030764975
+            </i></div>
+            <div class="col"><i class="bi bi-envelope-fill navbar-brand" style="font-size: 16px;">info@bellingtoncargoltd.com
+            </i></div>
+            <div class="col"><i class="bi bi-geo-alt navbar-brand" style="font-size: 16px;">Lagos
+            </i></div>
+          </div>
+          <div class="row">
+            <div class="col"> <i class="bi bi-facebook  d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+            <div class="col"> <i class="bi bi-twitter  d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+            <div class="col"> <i class="bi bi-youtube d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+            <div class="col"> <i class="bi bi-skype d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+          </div>
+        </div>
+      </nav>
+    
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <img src="images/Bellington_Cargo_Logo-Menu.png" alt="cargo" width="200" class="img-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end w-75" style="background-color: aqua;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title mx-3" id="offcanvasNavbarLabel">Bellington</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 me-0">
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" aria-current="page" href="../project.html" title="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="/about/projectabout.html" title="About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="/services/projectservices.html" title="Services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="#" title="Resources">Our Resources</a>
+                  </li>
+                </ul>
+      
+                <div class="offcanvas-header">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-geo-alt" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;">Visit Our Location <br> <p style="font-size: 1em; font-weight: 500;">Lagos</p>
+                    </i></div>
+                </div>
+      
+                <div class="offcanvas-header mt-0">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-clock" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;"><span class="me-5">Opening Hours: </span> <br> <p style="font-size: 1em; font-weight: 500;">Mon-Fri 8am-5pm</p>
+                    </i></div>
+                </div>
+      
+                <div class="offcanvas-header mt-0">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-envelope-fill" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;"><span class="me-5">Send Us Mail </span> <br> <p style="font-size: 1em; font-weight: 500;">info@bellingtoncargoltd.com</p>
+                    </i></div>
+                </div>
+      
+                <div class="offcanvas-header mt-0">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-envelope-fill" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;"><span class="me-5">Phone Number</span> <br> <p style="font-size: 1em; font-weight: 500;">+234 803 076 4975</p>
+                    </i></div>
+                </div>
+                  <button type="button" class="border-0 ms-3"><a href="/contact/projectcontact.html" style="background-color: blue; color: #fff; padding: 18px 35px; text-decoration: none;">Contact</a></button>
+      
+                  <div class="offcanvas-header mt-3">
+                    <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                      <i class="bi bi-facebook me-3"></i>
+                      <i class="bi bi-twitter me-3"></i>
+                      <i class="bi bi-youtube me-3"></i>
+                      <i class="bi bi-skype me-3"></i>
+                    </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/lorry8.jpg" class="d-block w-100 img-fluid responsive" alt="ship cargo">
+          </div>
+        </div>
+        <div class="center text-white fw-bolder">
+            Services
+        </div>
+      </div>
+        <div class="container-fluid mt-4" style="background-color:  rgba(128, 128, 128, 0.055);">
+            <div class="container row p-3">
+                <p>Cargo & Logistics <span style="color: rgb(22, 201, 201);">&gt; Contact US</span></p>
+            </div>
+        </div>
+
+        <main style="background-color: #475569;">
+            <div class="container-fluid">
+                <div class="row">
+                  <p style="color: white; font-weight: bold;" class="mt-5">Our Services</p>
+                </div>
+                <div class="row">
+                  <h1 style="font-weight: bolder; font-size: 50px; color: white;">What <span style="color: rgb(22, 201, 201);">We Do</span></h1>
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="row text-center">
+                  <div class="cargo col-md mt-5">
+                    <img src="images/freight-forwardig-1-300x212.jpeg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: white;"> <span class="freight" style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">Freight Forwarding</span> <br> Ever ready to deliver your goods anywhere in the world <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                  <div class="cargo col-md mt-5">
+                    <img src="images/Haulage-300x200.jpg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: #fff;"> <span class="haulage " style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">Haulage</span><br> We ensure your goods are delivered to your secured destination by our fleet <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                  <div class="cargo col-md mt-5">
+                    <img src="images/lorry2.jpg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: white;"> <span class="barge" style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">Barge Services</span><br> We operate an intermodal system thus clients timelines are met <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                  <div class="cargo col-md mt-5">
+                    <img src="images/Ware-House-1-300x201.jpg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: #fff;"> <span class="warehousing" style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">warehousing</span><br> Whether for import or export, we have a safe haven to keep your goods <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                </div>
+               </div>
+            
+              <div class="container mb-5">
+                <div class="row text-center">
+                  <div class="cargo col-md mt-5 mb-5">
+                    <img src="images/Freight-Forwarding-300x208.jpg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: #fff;"> <span class="freight" style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">Clearing And Forwarding</span> <br> We are licensed agent of Nigerian Custom Service(NCS) <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                  <div class="cargo col-md mt-5 mb-5">
+                    <img src="images/Bonded-Terminal-300x192.jpg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: white;"> <span class="haulage" style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">Haulage</span><br> A licensed operator of Bonded Terminal by Nigeria Custom Service(NCS) <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                  <div class="cargo col-md mt-5 mb-5">
+                    <img src="images/Haulage-300x200.jpg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: white;"> <span class="barge" style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">Barge Services</span><br> A one stop location for your export from A to Z with all agencies within our facility.  <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                  <div class="cargo col-md mt-5 mb-5">
+                    <img src="images/Ware-House-1-300x201.jpg" alt="" width="200" class="img-fluid w-75">
+                    <p style="color: #fff;"> <span class="warehousing" style="color: rgb(22, 201, 201); font-weight: bolder; font-size: 20px;">warehousing</span><br> Whether for import or export, we have a safe haven to keep your goods <br></p>
+                    <a href="#" style="text-decoration: none;color: rgb(22, 201, 201);">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container-fluid w-100 h-100 p-5" style="background-color: #fff; color: #fff;">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti suscipit autem eius labore reiciendis laboriosam tempore reprehenderit perspiciatis, iure ea, fuga quae dolorem deleniti porro quaerat. Placeat accusamus et, nisi modi, atque culpa voluptates unde asperiores ea provident dolorem? Et quod ipsam repellendus, quisquam consequatur repudiandae nobis alias eos veniam error in recusandae, accusamus, fugiat sed. Aspernatur error libero similique maiores! Dolorum eius quibusdam, explicabo aliquid unde voluptatem magnam laboriosam eaque perferendis necessitatibus, ad fuga et optio facilis sint animi incidunt dicta deserunt, accusantium quia facere? Saepe, ab aut veniam neque fugiat tempore doloremque ducimus nostrum sequi quia laudantium esse?
+              </div>
+
+              <div class="container-fluid w-100 h-100 p-5" style="background-color: lightgray; color: lightgrey;">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptates expedita ratione autem praesentium odit provident incidunt. Sequi reprehenderit porro eius quasi exercitationem velit iste ipsum fuga totam perferendis voluptatum eaque, aspernatur sunt vel rerum vitae quos quisquam quis. Id quaerat, optio perferendis consequatur sit dolore, cumque inventore odio recusandae totam corporis provident repellat possimus odit delectus alias cupiditate sed nulla a. Doloremque labore, nobis quam facere eveniet velit quas eum dicta molestias, necessitatibus, odio nesciunt temporibus consectetur sunt cupiditate in sed accusamus sapiente omnis perferendis numquam exercitationem voluptatum. Veniam vel expedita consectetur voluptate eum molestias praesentium non quia.
+              </div>
+        </main>
+
+
+        
+        <footer style="background-color: #475569;">
+            <div class="container">
+              <div class="row align-items-center gap-3">
+                <div class="col-md">
+                  <img src="images/Bellington_Cargo_Logo-Menu-foooter-logo.png" alt="cargo" class="img-fluid">
+                  <p class="mt-4" style="color: rgba(245, 245, 245, 0.589);">Belington Cargo & Logistics Services is a global supplier of transport and logistics solutions</p>
+                </div>
+        
+                <div class="col-md mt-5">
+                  <h4 class="fw-bolder fs-5 mb-3" style="color: white;">Quick Links</h4>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Our Services</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">About Us</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Contact Us</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Bonded Terminal</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Export Processing Terminal(EPT)</p></a>
+                </div>
+        
+                <div class="col-md mt-5">
+                  <h4 class="fw-bolder fs-5 mb-3" style="color: white;">Quick Links</h4>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Freight Forwarding</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Haulage</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Barge services</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Warehousing</p></a>
+                  <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Clearing and Forwarding</p></a>
+                </div>
+                <div class="col-md mt-5">
+                  <h4 class="fw-bolder fs-5 mb-3" style="color: white; font-weight: bold;">Get in touch</h4>
+        
+                  <div class="mb-3">
+                    <i class="bi bi-geo-alt me-1" style="font-size: 16px; color: red;">
+                    </i>
+                    <span style="color: rgba(245, 245, 245, 0.589);">Okoko Bus stop, Lagos-Badagry Expressway,Okokomaiko, Lagos.</span>
+                  </div>
+        
+                  <div class="mb-3">
+                    <i class="bi bi-telephone me-2" style="font-size: 16px; color: blue;">
+                    </i>
+                    <span style="color: rgba(245, 245, 245, 0.589);">+234 803 076 4975</span>
+                  </div>
+        
+                  <div class="mb-5">
+                    <i class="bi bi-envelope-fill me-2 navbar-brand" style="font-size: 16px; color: gold;">
+                    </i>
+                    <span style="color: rgba(245, 245, 245, 0.589);">info@bellingtoncargoltd.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="navbar-expand p-3" style="background-color: rgba(172, 255, 47, 0.815);">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md text-white mt-3">
+                    <p>
+                      <span class="fs-5 fw-bolder">&COPY;2023 BELLINGTON CARGO</span> 
+                      <span class="fs-5">. All Rights Reserved</span>
+                    </p>
+                  </div>
+                  <div class="col-md-4 text-center mt-3"> 
+                    <i class="bi bi-facebook p-2 fs-5" style="background-color: #475569;"></i>
+                    <i class="bi bi-twitter p-2 fs-5" style="background-color: #475569;"></i>
+                    <i class="bi bi-youtube p-2 fs-5" style="background-color: #475569;"></i>
+                    <i class="bi bi-skype p-2 fs-5" style="background-color: #475569;"></i>
+                  </div>            
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

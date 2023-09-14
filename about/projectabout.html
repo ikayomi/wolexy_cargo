@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            min-height: 110vh;
+        }
+
+        header{
+            background-color: rgba(211, 211, 211, 0.3);
+        }
+
+        .navbar{
+            background-color: #475569;
+        }
+
+       .bi{
+            color: white;
+            cursor: pointer;
+        }
+        .bi:hover{
+            color:lightblue;
+        }
+
+        .nav-link{
+            color: blue;
+            font-size: 1em;
+            font-weight: bolder;
+        }
+
+        .nav-link:hover{
+            color: black;
+            background-color: gray;
+         }
+         
+         .cargo:hover{
+          background-color: #475569;
+         }
+
+         .figs{
+            font-size: 50px;
+            font-weight: bolder;
+         }
+
+         .fig{
+            font-size: 20px;
+         }
+
+         @media screen and (min-width: 1024px)  and (max-width: 1200px){
+            .carousel-item img
+
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            /* Default Styling */
+  
+                font-size: 30px;
+                width: 100%;
+                height: 50vh;
+                background-size: cover;
+                background-position: center;
+ 
+        }
+    }
+
+            .responsive {
+                width: 100%;
+                height: auto;
+            }
+
+            .center{
+                font-size: 700px;
+            }
+
+            @media screen and (min-width: 1201px){
+
+
+            .carousel-item img
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;      
+                font-size: 30px;
+                width: 100%;
+                height: 50vh;
+                background-size: cover;
+                background-position: center;
+     
+            }
+        }
+    
+            .responsive {
+                width: 100%;
+                height: auto;
+            }
+
+            .center{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 70px;
+            }
+
+            @media screen and (min-width: 700px) {
+                .center{
+                    font-size: 70px;
+                }
+            }
+
+            @media screen and (max-width: 699px){
+                .center{
+                    font-size: 30px;
+                }
+            }
+
+            @media screen and (min-width: 200px) and (max-width: 300px) {
+                .center{
+                    font-size: 20px;
+                }
+            }
+
+            @media screen and (min-width: 200px) and (max-width: 600px) {
+                .choose{
+                    font-size: 20px;
+                }
+            }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-3 d-none d-xxl-block d-xl-block d-lg-block d-md-block d-sm-block">
+        <div class="container">
+          <div class="row">
+            <div class="col"><i class="bi bi-telephone navbar-brand" style="font-size: 16px;">+2348030764975
+            </i></div>
+            <div class="col"><i class="bi bi-envelope-fill navbar-brand" style="font-size: 16px;">info@bellingtoncargoltd.com
+            </i></div>
+            <div class="col"><i class="bi bi-geo-alt navbar-brand" style="font-size: 16px;">Lagos
+            </i></div>
+          </div>
+          <div class="row">
+            <div class="col"> <i class="bi bi-facebook  d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+            <div class="col"> <i class="bi bi-twitter  d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+            <div class="col"> <i class="bi bi-youtube d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+            <div class="col"> <i class="bi bi-skype d-none d-lg-block d-xl-block d-xxl-block"></i></div>
+          </div>
+        </div>
+      </nav>
+    
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <img src="images/Bellington_Cargo_Logo-Menu-foooter-logo.png" alt="cargo" width="200" class="img-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end w-75" style="background-color: aqua;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title mx-3" id="offcanvasNavbarLabel">Bellington</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 me-0">
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" aria-current="page" href="../project.html" title="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="/about/projectabout.html" title="About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="/services/projectservices.html" title="Services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="#" title="Resources">Our Resources</a>
+                  </li>
+                </ul>
+      
+                <div class="offcanvas-header">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-geo-alt" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;">Visit Our Location <br> <p style="font-size: 1em; font-weight: 500;">Lagos</p>
+                    </i></div>
+                </div>
+      
+                <div class="offcanvas-header mt-0">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-clock" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;"><span class="me-5">Opening Hours: </span> <br> <p style="font-size: 1em; font-weight: 500;">Mon-Fri 8am-5pm</p>
+                    </i></div>
+                </div>
+      
+                <div class="offcanvas-header mt-0">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-envelope-fill" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;"><span class="me-5">Send Us Mail </span> <br> <p style="font-size: 1em; font-weight: 500;">info@bellingtoncargoltd.com</p>
+                    </i></div>
+                </div>
+      
+                <div class="offcanvas-header mt-0">
+                  <div class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-envelope-fill" style="color: blue; font-weight: bold; font-size: 1em; pointer-events: none;"><span class="me-5">Phone Number</span> <br> <p style="font-size: 1em; font-weight: 500;">+234 803 076 4975</p>
+                    </i></div>
+                </div>
+                  <button type="button" class="border-0 ms-3"><a href="/contact/projectcontact.html" style="background-color: blue; color: #fff; padding: 18px 35px; text-decoration: none;">Contact</a></button>
+      
+                  <div class="offcanvas-header mt-3">
+                    <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                      <i class="bi bi-facebook me-3"></i>
+                      <i class="bi bi-twitter me-3"></i>
+                      <i class="bi bi-youtube me-3"></i>
+                      <i class="bi bi-skype me-3"></i>
+                    </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/lorry8.jpg" class="d-block w-100 img-fluid responsive" alt="ship cargo">
+          </div>
+        </div>
+        <div class="center text-white fw-bolder">
+            About Us
+        </div>
+      </div>
+
+      <main style="background-color: rgba(128, 128, 128, 0.055);">
+        <div class="container mt-4">
+            <div class="row">
+                <p>Cargo & Logistics <span style="color: rgb(22, 201, 201);">&gt; Contact US</span></p>
+            </div>
+          </div>
+    
+          <div class="container my-5">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="images/air-freigt.jpg" alt="Cargo" class="img-fluid">
+                </div>
+                <div class=" col-md-4 m-auto">
+                    <h1 class="figs" style= "color: blue;">About <span  style="color: rgb(22, 201, 201);">Bellington Cargo</span></h1>
+                    <p class="fig w-100" style=" color: gray;">
+                      A customer centric platform willing to go a step further to satisfy the demands of her clientele adopting best industry practice
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid reason p-5">
+            <div class="text-center" style="color: green;">
+                <p style="font-weight: bold;">Why Choose Us</p>
+              </div>
+          
+              <div class="text-center mt-3">
+                <h1 style="color: #475569; font-weight: bolder; font-size: 50px;"> <span class="choose">6 Reasons</span> <span style="color: rgb(22, 201, 201);" class="choose">Why Choose</span></h1>
+              </div>
+        </div>
+
+        <div class="container-fluid reason">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+                <div class="col">
+                    <div class="card h-100" style="border: none;">
+                        <div class="ms-2">
+                            <i class="bi bi-clock" style="font-size: 40px; color: rgb(22, 201, 201);"></i>
+                            <div class="card-body">
+                                <h5 class="my-5" style="color: #1569df;font-size: 30px;">Real Time Tracking
+                                </h5>
+                                <p style="font-size: 20px;"> We commit ourselves to complete all projects within the timeline set with our honourable clients</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="border: none;">
+                        <div class="ms-3">
+                            <i class="bi bi-currency-dollar" style="font-size: 50px; color: rgb(22, 201, 201);"></i>
+                            <h5 class="my-5" style="color: #1569df ;font-size: 30px;">Transparency Pricing
+                            </h5>
+                            <p style="font-size: 20px;">We commit ourselves to complete all projects within the timeline set with our honorable clients.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="border: none;">
+                        <div class="ms-3">
+                            <i class="bi bi-truck" style="font-size: 50px; color: rgb(22, 201, 201);"></i>
+                            <h5 class="my-5" style="color: #1569df ;font-size: 30px;">On - Time Delivery
+                            </h5>
+                            <p style="font-size: 20px;">We commit ourselves to complete all projects within the timeline set with our honorable clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col">
+                    <div class="card h-100" style="border: none;">
+                        <div class="ms-2">
+                            <i class="bi bi-headset" style="font-size: 40px; color: rgb(22, 201, 201);"></i>
+                            <div class="card-body">
+                                <h5 class="my-5" style="color: #1569df;font-size: 30px;">24/7 Online Support
+                                </h5>
+                                <p style="font-size: 20px;"> We commit ourselves to complete all projects within the timeline set with our honourable clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="border: none;">
+                        <div class="ms-3">
+                            <i class="bi bi-globe-americas" style="font-size: 50px; color: rgb(22, 201, 201);"></i>
+                            <h5 class="my-5" style="color: #1569df; font-size: 30px;">Global Logistics Partner
+                            </h5>
+                            <p style="font-size: 20px;">We commit ourselves to complete all projects within the timeline set with our honorable clients.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="border: none;">
+                        <div class="ms-3">
+                            <i class="bi bi-shield-shaded" style="font-size: 50px; color: rgb(22, 201, 201);"></i>
+                            <h5 class="my-5" style="color: #1569df; font-size: 30px;">Insurance & guarantee
+                            </h5>
+                            <p style="font-size: 20px;">We commit ourselves to complete all projects within the timeline set with our honorable clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+
+        <footer class="mt-5" style="background-color: #475569;">
+    <div class="container">
+      <div class="row align-items-center gap-3">
+        <div class="col-md">
+          <img src="images/Bellington_Cargo_Logo-Menu-foooter-logo.png" alt="cargo" class="img-fluid">
+          <p class="mt-4" style="color: rgba(245, 245, 245, 0.589);">Belington Cargo & Logistics Services is a global supplier of transport and logistics solutions</p>
+        </div>
+
+        <div class="col-md mt-5">
+          <h4 class="fw-bolder fs-5 mb-3" style="color: white;">Quick Links</h4>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Our Services</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">About Us</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Contact Us</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Bonded Terminal</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Export Processing Terminal(EPT)</p></a>
+        </div>
+
+        <div class="col-md mt-5">
+          <h4 class="fw-bolder fs-5 mb-3" style="color: white;">Quick Links</h4>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Freight Forwarding</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Haulage</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Barge services</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Warehousing</p></a>
+          <a href="#" class="text-decoration-none"><p style="color: rgba(245, 245, 245, 0.589);">Clearing and Forwarding</p></a>
+        </div>
+        <div class="col-md mt-5">
+          <h4 class="fw-bolder fs-5 mb-3" style="color: white; font-weight: bold;">Get in touch</h4>
+
+          <div class="mb-3">
+            <i class="bi bi-geo-alt me-1" style="font-size: 16px; color: red;">
+            </i>
+            <span style="color: rgba(245, 245, 245, 0.589);">Okoko Bus stop, Lagos-Badagry Expressway,Okokomaiko, Lagos.</span>
+          </div>
+
+          <div class="mb-3">
+            <i class="bi bi-telephone me-2" style="font-size: 16px; color: blue;">
+            </i>
+            <span style="color: rgba(245, 245, 245, 0.589);">+234 803 076 4975</span>
+          </div>
+
+          <div class="mb-5">
+            <i class="bi bi-envelope-fill me-2 navbar-brand" style="font-size: 16px; color: gold;">
+            </i>
+            <span style="color: rgba(245, 245, 245, 0.589);">info@bellingtoncargoltd.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-expand p-3" style="background-color: rgba(172, 255, 47, 0.815);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md text-white mt-3">
+            <p>
+              <span class="fs-5 fw-bolder">&COPY;2023 BELLINGTON CARGO</span> 
+              <span class="fs-5">. All Rights Reserved</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center mt-3"> 
+            <i class="bi bi-facebook p-2 fs-5" style="background-color: #475569;"></i>
+            <i class="bi bi-twitter p-2 fs-5" style="background-color: #475569;"></i>
+            <i class="bi bi-youtube p-2 fs-5" style="background-color: #475569;"></i>
+            <i class="bi bi-skype p-2 fs-5" style="background-color: #475569;"></i>
+          </div>            
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
